@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridbox {
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+}
+
+.gridbox:nth-child(17n) {
+    width: 100%;
+    border: 0;
+    height: 0;
+}
+
+.hovered {
+    background-color: black;
+}
